@@ -5,17 +5,136 @@
     font-family:cursive;
 
 }
+/*SECCION DE CABELLO*/
+#TituloCabello {
+    align-content: center;
+    margin: -30px 175px;
+    width: 1000px;
+    height: 202px; 
+}
 
-.contenido{
-    
+#TituloCabello h2{
+    position: absolute;
+    top: 210px;
+    right: 350px;
+    width: 100px;
+    height: 60px;
+    color: white;
+    font-size: 70px;
+    color: white;
+    z-index: 0; 
+    user-select:none;
+    text-shadow: 4px 4px 4px black;
+}
+
+#TituloCabello img{
+    border-radius: 10px; 
+}
+
+#TituloCabello img:hover{
+   filter: saturate(160%);
+   
+}
+
+.tablasCabello{
+    position: relative;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    top: 100px;
+    left: 200px;
+}
 
+.tablasCabello li{
+    font-size: 18px;
+}
 
+.tablasCabello ul{
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+/*SECCION DE SERVICIOS DE COLOR*/
+#TituloServColor {
+    align-content: center;
+    margin: 150px 175px;
+    width: 1000px;
+    height: 202px;
+    
+    
+}
+
+#TituloServColor h2{
+    position: absolute;
+    top: 730px;
+    right: 50px;
+    width: 600px;
+    height: 60px;
+    color: white;
+    font-size: 50px;
+    color: white;
+    z-index: 0; 
+    user-select:none;
+    text-shadow: 4px 4px 4px black;
+}
+
+#TituloServColor img{
+    border-radius: 10px; 
+}
+
+#TituloServColor img:hover{
+   filter: saturate(160%);
+   
+}
+
+.tablasServColor{
+    position: relative;
+    display: flex;
+    top: -85px;
+    left: 200px;
+}
+
+.tablaServColor li{
+    font-size: 18px;
 }
 
 
+/*SECCION DE SERVICIOS DE ALISADO*/
+#TituloAlisado {
+    align-content: center;
+    margin: -30px 175px;
+    width: 1000px;
+    height: 202px;
+}
 
+#TituloAlisado h2{
+    position: absolute;
+    top: 1340px;
+    left: 190px;
+    width: 600px;
+    height: 60px;
+    color: white;
+    font-size: 50px;
+    color: white;
+    z-index: 0; 
+    user-select:none;
+    text-shadow: 4px 4px 4px black;
+}
 
+#TituloAlisado img{
+    border-radius: 10px; 
+}
+
+#TituloAlisado img:hover{
+   filter: saturate(160%);
+   
+}
+
+.tablasAlisado{
+    position: relative;
+    display: flex;
+    top: 100px;
+    left: 200px;
+}
+
+.tablaAlisado li{
+    font-size: 18px;
+}

@@ -16,6 +16,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1;
 }
 
 .nav {
@@ -25,6 +26,7 @@ body {
     left: 0%;
     height: 10%;
     width: 100%;
+    z-index: 1;
 }
 
 .nav-link {
@@ -85,7 +87,7 @@ body {
 .section-imagenesIndex ul {
     width: 500%;
     display: flex;
-    padding: 0%;
+    padding: 0;
     animation: cambio 30s infinite;
     
 }
