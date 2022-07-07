@@ -1,0 +1,21 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+
+}
+
+.contenido{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+

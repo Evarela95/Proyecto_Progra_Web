@@ -1,0 +1,149 @@
+/* MENU PRINCIPAL */
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+
+body {
+
+}
+
+.header {
+    background-color: #e93578;
+    height: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav {
+    background-color: #e93578;
+    position: fixed;
+    top: 10%;
+    left: 0%;
+    height: 10%;
+    width: 100%;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 100px;
+    line-height: 12vh;
+}
+
+.nav-menu {
+    display:flex;
+    margin:auto;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 25px;
+    line-height: 12vh;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.nav-menu-link:hover {
+    color: black;
+    text-decoration: none;
+}
+/*INFORMACION*/
+.section-informacion{
+    color:black;
+    font-size: 18px;
+    margin: 0 15%;
+    top: 70%;
+    height: 40%;
+    width: 70%;
+    text-align: justify;
+}
+
+
+/*CARRUSEL*/
+.section-imagenesIndex {
+    width: 50%;
+    margin-top: 11%;
+    margin-left: 23%;
+    overflow: hidden;
+     border-radius:5%;
+     
+}
+
+.section-imagenesIndex ul {
+    width: 500%;
+    display: flex;
+    padding: 0%;
+    animation: cambio 30s infinite;
+    
+}
+
+.section-imagenesIndex li {
+    list-style: none;
+    width: 100%;
+}
+
+.section-imagenesIndex img {
+    width: 100%;
+    height: 100%;  
+}
+
+
+.section-imagenesIndex:hover{
+     filter: saturate(130%);
+   
+    -webkit-box-shadow: 0px 0px 10px 10px #ff99ff;
+    
+}
+
+
+
+
+@Keyframes cambio{
+    0%{
+        margin-left:0;
+    }
+    20%{
+        margin-left:0;
+    }
+
+    20%{
+        margin-left:-100%;
+    }
+    40%{
+        margin-left:-100%;
+    }
+
+    40%{
+        margin-left:-200%;
+    }
+    50%{
+        margin-left:-200%;
+    }
+
+    50%{
+        margin-left:-300%;
+    }
+    80%{
+        margin-left:-300%;
+    }
+
+    80%{
+        margin-left:-400%;
+    }
+    100%{
+        margin-left:-400%;
+    }
+}
