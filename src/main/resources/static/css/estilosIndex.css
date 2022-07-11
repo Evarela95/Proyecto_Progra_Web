@@ -2,15 +2,13 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family:cursive;
+    font-family:"Times New Roman";
 }
 
 .redesSociales{
     position:absolute;
     height: 32px;
     width:32px;
-     
-
 }
 
 .redesSociales img{
@@ -99,7 +97,7 @@
     top: 70%;
     height: 40%;
     width: 70%;
-    text-align: justify;
+    text-align: center;
 }
 
 
