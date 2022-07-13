@@ -169,16 +169,6 @@
     }
 }
 
-#contenido {
-    position: absolute;
-    top: 20%;
-    height: 81%;
-    width: 100%;
-    color: black;
-    padding: 10px;
-    text-align: center;
-    font-size: 30px;
-}
 
 #barraLateral {
     position: absolute;

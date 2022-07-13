@@ -1,0 +1,39 @@
+#contenido{
+    position: relative;
+    left: 165px;
+    width: 1000px;
+    top: 130px;
+    align-content: center;
+
+}
+
+
+#contenido ul{
+    display: flex;
+    width: 1000px;
+    list-style: none;
+}
+
+#contenido li{
+    align-content: center;
+    margin: 50px;
+  -webkit-box-shadow: 0px 0px 10px 10px #e93578;
+  border-radius:5%;
+}
+
+#contenido li form{
+    align-content: center;
+    margin: 50px;
+
+}
+
+#contenido li:hover{
+ background-color: #e93578;
+  
+}
+
+#contenido li h2{
+    font-size: 30px;
+    text-align: center;
+    
+}
